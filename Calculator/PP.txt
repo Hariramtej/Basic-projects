@@ -1,0 +1,16 @@
+
+tkinter package is used to develop desktop applications and also interacts with Garphical User Interphase (GUI)
+
+Steps to create a basic calculator:
+    1. Creating a window and assigning a title.
+        -> Title is given by using a function in  line 8.
+        -> The geometry of the opening window is specified in line 11 with background color (line 14).
+        -> We can also prevent the user to not resize the window (line 15)
+    
+    2. We have to create a entry box which takes the values to calculate.
+        -> We start by using a function StringVar() (line 18) which stores the values we enter into the box.
+        -> We have to add the other values we add prograsively inorder to calculate. We achieve this by definning a function (line 48) which is used to add values to a pre-existing string.
+        -> We have to style the textbox (line 23). The Entry function allows the user to enter the data into the text box. We procede further by specifying the width, color, font, place of the text box and incrementing the inner text.
+
+    3. We now have to create the buttons which are functional.
+        ->  
